@@ -43,7 +43,7 @@ def city_input():
             # error handled by implementing 'else' and provided another option to input data
 
             else:
-                print('\nPlease enter 1, 2 or 3 or the names of cities\n')
+                print('\nInput invalid - Please enter 1, 2 or 3 or the names of cities\n')
                 city = input('Please choose the city for which you would like to see the Statistics: ')
                 city = city.lower()
     return city
