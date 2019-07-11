@@ -14,6 +14,10 @@ def city_input():
     This function starts the user interface by introduction and
     asking the user with the city he/she wants to analyze
     '''
+        '''
+        This function starts the user interface by introduction and
+        asking the user with the city he/she wants to analyze
+        '''
     print('Hey there! I am Madhuri.. Let\'s explore some US bikeshare data!')
     print(' ')
 
@@ -51,6 +55,10 @@ def get_time():
     the code below asks the user to choose between month and day of month,
     day of the week or no filters
     '''
+        '''
+        the code below asks the user to choose between month and day of month,
+        day of the week or no filters
+        '''
     period = input('\nYou want to filter the data by month and day of the month, day of the week, or you do not want to filter at all? Type "no" for no period filter.\n')
     period = period.lower()
 
