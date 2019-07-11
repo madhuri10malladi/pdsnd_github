@@ -20,9 +20,7 @@ def city_input():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
-    print('Lets get started')
     print('Enter the city you want to analyze the data for:')
-    print('1,2,3')
     print('Chicago: 1')
     print('New York: 2')
     print('Washington: 3')
